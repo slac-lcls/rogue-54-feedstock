@@ -11,7 +11,7 @@ cdt_name:
 channel_sources:
 - lcls-ii,tidair-packages,conda-forge,defaults
 channel_targets:
-- lcls-ii main
+- lcls-ii rogue54
 cxx_compiler:
 - gxx
 cxx_compiler_version:
@@ -35,7 +35,7 @@ python:
 target_platform:
 - linux-64
 zeromq:
-- 4.3.3
+- 4.3.4
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version

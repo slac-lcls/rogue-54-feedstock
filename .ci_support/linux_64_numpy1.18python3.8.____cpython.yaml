@@ -11,7 +11,7 @@ cdt_name:
 channel_sources:
 - lcls-ii,tidair-packages,conda-forge,defaults
 channel_targets:
-- lcls-ii main
+- lcls-ii rogue54
 cxx_compiler:
 - gxx
 cxx_compiler_version:
@@ -19,7 +19,7 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-comp7
 numpy:
-- '1.17'
+- '1.18'
 pin_run_as_build:
   boost:
     max_pin: x.x.x
@@ -31,11 +31,11 @@ pin_run_as_build:
   zeromq:
     max_pin: x.x
 python:
-- 3.6.* *_cpython
+- 3.8.* *_cpython
 target_platform:
 - linux-64
 zeromq:
-- 4.3.3
+- 4.3.4
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
